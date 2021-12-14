@@ -2,11 +2,12 @@ Uuid: 3996aa01e0474b1a990db586a7f14ab7
 ExtensionType: 1
 Name: Image Metadata
 RepoName: image-metadata
-ScreenVersion: 2.1.1
-SerialVersion: 5
+ScreenVersion: 2.1.2
+SerialVersion: 8
 MinPlatformVersion: 0
 ProOnly: False
 Author: Philippe Arteau
 ShortDescription: Extracts metadata from image files.
 EntryPoint: img-metadata-burp-plugin/target/img-metadata-burp-plugin-2.jar
 BuildCommand: rm -f libs/zap.jar && mvn package -DskipTests=true -Dmaven.javadoc.skip=true -B -Pburp-only
+SupportedProducts: Pro, Community
